@@ -1,0 +1,150 @@
+
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+  #intro {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rockwell", Arial, sans-serif;
+  }
+  
+  #cookie-button {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #cookie-button:hover {
+    /* This line below slightly enlarges the cookie, to give a "hover-like feel" before you click. */
+      transform: scale(1.05);
+  }
+
+  #container {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #score {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rockwell", Arial, sans-serif;
+    border: 2px solid rgb(61, 18, 18);
+    background-color: tan;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #score-number {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rockwell", Arial, sans-serif;
+    color: red;
+  }
+
+
+  #baker-price {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rockwell", Arial, sans-serif;
+    border: 2px solid rgb(61, 18, 18);
+    background-color: tan;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #reset {
+    display: inline-block;
+    margin: 0 auto;
+    background-size: cover;
+    background-color: rgb(209, 174, 123);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Rockwell", Arial, sans-serif;
+    border: 2px solid rgb(61, 18, 18);
+  }
+
+  #baker {
+    display: inline-block;
+    margin: 0 auto;
+    background-size: cover;
+    background-color: rgb(209, 174, 123);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Rockwell", Arial, sans-serif;
+    border: 2px solid rgb(61, 18, 18);
+  }
+
+  #howtoPlay {
+    display: inline-block;
+    margin: 0 auto;
+    background-size: cover;
+    background-color: rgb(209, 174, 123);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Rockwell", Arial, sans-serif;
+    border: 2px solid rgb(61, 18, 18);
+  }
+
+  #reset:hover {
+    cursor: pointer;
+    background-color: rgb(191, 162, 144);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  #baker:hover {
+    cursor: pointer;
+    background-color: rgb(191, 162, 144);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  #howtoPlay:hover {
+    cursor: pointer;
+    background-color: rgb(191, 162, 144);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rockwell", Arial, sans-serif;
+  }
+
+  body {
+    text-align: center;
+  }

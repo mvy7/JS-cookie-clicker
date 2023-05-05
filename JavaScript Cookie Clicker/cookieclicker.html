@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Cookie Clicker</title>
+        <script src="cookieclicker.js"></script>
+        <link rel="stylesheet" type="text/css" href="cookieclicker.css" />
+    </head>
+
+    <video id="background-video" autoplay muted loop>
+        <source src="Images/background.mp4" type="video/mp4">
+    </video>
+    
+    <body>
+        <h1>Cookie Clicker!</h1>
+        <p id="intro">Click the Cookie to Begin!</p>
+        <img id="cookie-button" onclick="cookieClick()" src="Images/chocolate-chip.png"></img>     
+        <br><br><br>
+
+        <div id="container">
+            <p id="score">Score: <span id="scorenumber">0 cookies</span></p>
+            <p id="baker-price">Baker Price: 20 cookies</p>
+        </div>
+
+        <br>
+
+        <div id="baker-reset">
+            <button id="baker" onclick="hireBaker()">Hire a Baker!</button>
+            <button id="howtoPlay" onclick="howtoPlay()">How to Play!</button>
+            <button id="reset" onclick="resetButton()">Reset Game</button>
+        </div>
+
+        
+    </body>
+
+</html>
